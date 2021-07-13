@@ -1,0 +1,28 @@
+header{
+    background: #E5E5E5;
+    text-align: center;
+
+}
+
+h1{
+    background-color: #C4C4C4;
+    color: #005677;
+    text-align: center;
+    
+}
+
+h2{
+    background-color: #C4C4C4;
+    color:#005677;
+    
+}
+span{
+    font-weight: bold;
+}
+
+footer{
+    background:#005677;
+    color: white;
+    text-align: center;
+}
+
