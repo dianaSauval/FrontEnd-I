@@ -7,4 +7,6 @@ Proyecto Pet Shop: https://dianasauval.github.io/FrontEnd/Proyecto-PetShop/
 
 Proyecto CV de Batman: https://dianasauval.github.io/FrontEnd/Proyecto-CV-Batman
 
+Proyecto CV Personal: https://dianasauval.github.io/FrontEnd/Proyecto-CV-Personal
+
  
