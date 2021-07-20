@@ -9,4 +9,6 @@ Proyecto CV de Batman: https://dianasauval.github.io/FrontEnd/Proyecto-CV-Batman
 
 Proyecto CV Personal: https://dianasauval.github.io/FrontEnd/Proyecto-CV-Personal
 
+Proyecto-Heroes: https://dianasauval.github.io/FrontEnd/Proyecto-Heroes
+
  
