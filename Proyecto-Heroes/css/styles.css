@@ -44,10 +44,11 @@ header{
 .corazon{
     color: #CC2424;
     position: relative;
-    left: 10px;
+    left: -120px;    
     top:10px;
-    height: 26px;
-    width: 30px;
+    Width: 30px;
+    Height: 27px;
+
 }
 
 .card-img{
