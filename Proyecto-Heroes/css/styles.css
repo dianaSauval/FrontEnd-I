@@ -73,8 +73,6 @@ header{
     top: 100px;   
 }
 
-/*volviendo a la normalidad*/
-
 .card-text img{
     width: 122px;
     border-radius: 50%;
@@ -100,9 +98,6 @@ a{
     font-size: 15px;
     line-height: 18px;
 }
-
-
-
 
 /* footer */
 
