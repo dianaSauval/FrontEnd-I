@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100,700&display=swap');
+
+
+/* header */
+
+header{
+    background-color:#222222;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegadorHeader{
+    display: flex;            
+}
+.navegadorHeader li{
+    padding: 10px;
+    justify-content: center;    
+}
+
+.contenedorPizza {
+    display: flex;
+    margin: 10px;    
+}
+
+h1 {
+    color: #fff;
+}
+span{
+    color: green;
+}
+.rojo{
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;      
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+/* main */
+
+body{
+    font-family: 'Roboto', sans-serif;;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+    justify-content: center; 
+    color: #fff;
+    font-weight: 700;   
+}
+
+main div{
+    width: 491px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.PodioPrincipal h2{
+    text-align: center;
+}
+
+.fotoFondo{
+    background-image: url(../img/delivery.jpg);    
+}
+
+.contenedorPodio{
+    display: flex;
+    width: 491px;
+    height: 350px;
+    margin: 50px;
+    color:#222222;        
+}
+
+
+/* footer */
+
+footer{
+    background: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
