@@ -150,3 +150,103 @@ h2{
     font-weight: bold;
     font-size: 40px;
 }
+
+.suscripcion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F0A83E;
+    color: #FFFFFF;
+}
+
+.suscripcion form a{
+    background: #3C2313;
+    color: #FFFFFF;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.suscripcion form input{
+    background: #FFFFFF;
+    border-radius: 15px;
+    width: 271px;
+    height: 40px;
+}
+
+.suscripcion h3{
+    background:#F0A83E;
+    ;
+    padding: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+}
+h3 i{
+    padding: 10px;
+}
+
+.horizontal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3C2313;
+    padding: 30px;
+
+}
+.horizontal2{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.horizontal2 nav dd{
+    padding: 0px 10px 40px 0px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.horizontal2 nav dt{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.vertical{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.vertical div{
+    background: #8A8787;
+    border-radius: 29.5px;
+    width: 58px;
+    height: 57px;
+    margin: 15px;
+    position: relative;  
+}
+.icono{
+    width: 58px;
+    height: 57px;
+    padding: 10px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 10px;
+    top: 8px;
+}
+
+footer{
+    background: #222222;
+    text-align: center;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+}
