@@ -241,6 +241,41 @@ h3 i{
     top: 8px;
 }
 
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #3C2313;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.botones{
+    display: flex;    
+}
+
+input{
+    background: #3C2313;
+    font-weight: normal;
+    font-size: 9px;
+    color: #FFFFFF;
+    border-radius: 15px;
+    width: 340px;
+    height: 40px;
+    margin: 5px;
+}
+.formulario button{
+    background: #F0A83E;
+    border-radius: 15px;
+    width: 110px;
+    height: 34px;
+    padding: 5px;
+    margin: 20px;
+}
+button[type="reset"]{
+    background: #8A8787;
+}
+
 footer{
     background: #222222;
     text-align: center;
