@@ -1,13 +1,12 @@
-@media screen and (max-width:768px){
-    .container{
-        flex-wrap: wrap;
-    }
-    
-}
+/* MEDIA QUERIES */
 
-@media screen and (max-width:768px){
-    .container{
-        flex-wrap: wrap;
+
+@media screen and (max-width: 480px) {
+
+    main{
+        flex-direction: column;
     }
-    
+    .card{
+        margin: 0.93rem auto;
+    }
 }
