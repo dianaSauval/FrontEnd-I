@@ -2,6 +2,9 @@
 
 
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Roboto' , 'sans-serif';    
 }
 
@@ -91,11 +94,13 @@ a{
     font-style: normal;
     font-weight: normal;
 }
+
 .imagenFondo div p{
     padding: 5px;
     font-size: 16px;
     font-style: normal;
     font-weight: normal;
+    margin: 15px 0px 20px;
 }
 
 h3{
@@ -106,6 +111,7 @@ h3{
     font-weight: normal;
     font-size: 30px;       
 }
+
 
 .cajaPrincipal{
     display: flex;
@@ -226,11 +232,14 @@ h3 i{
 .vertical div{
     background: #8A8787;
     border-radius: 29.5px;
-    width: 58px;
-    height: 57px;
+    width: 50px;
+    height: 50px;
+    padding: 27px;
     margin: 15px;
-    position: relative;  
+    position: relative;
+    bottom:15px;
 }
+
 .icono{
     width: 58px;
     height: 57px;
@@ -271,6 +280,7 @@ input{
     height: 34px;
     padding: 5px;
     margin: 20px;
+    color: #FFFFFF;
 }
 button[type="reset"]{
     background: #8A8787;
@@ -285,3 +295,21 @@ footer{
     font-size: 10px;
     line-height: 12px;
 }
+
+
+/*media querie*/
+
+@media screen and(max-width: 480px){
+    .cajaHorizontal{
+        flex-direction: column;
+    }
+
+    .horizontal{
+        flex-direction: column;
+    }
+
+    .suscripcion{
+        flex-direction: column;
+    }
+}
+
