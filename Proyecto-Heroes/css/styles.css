@@ -1,5 +1,5 @@
 
-@import '../css/clases.css';
+
 /* estilos generales*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
@@ -148,3 +148,18 @@ footer{
     height: 3.18rem;
     padding: 1rem;
 }
+
+/* mediaQuerie */
+
+
+@media screen and (max-width: 768px) {
+
+    main{        
+        flex-direction: column;
+    }
+    .card{
+
+        width: 40%;
+    }
+}
+
