@@ -80,19 +80,19 @@ main{
 }
 
 .card-1 .imagen{
-    background-image: url("img/fondo-batman.png"); 
+    background-image: url("../img/fondo-batman.png"); 
 }
 
 .card-2 .imagen{
-    background-image: url("img/fondo-mujer-maravilla.png");
+    background-image: url("../img/fondo-mujer-maravilla.png");
 }
 
 .card-3 .imagen{
-    background-image: url("img/fondo-Superman.png");
+    background-image: url("../img/fondo-Superman.png");
 }
 
 .card-4 .imagen{
-    background-image: url("/img/fondo-Herley.png");
+    background-image: url("../img/fondo-Herley.png");
 }
 
 .corazon{
