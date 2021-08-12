@@ -3,10 +3,10 @@
 
 @media screen and (max-width: 480px) {
 
-    main{
+    main{        
         flex-direction: column;
     }
     .card{
-        margin: 0.93rem auto;
+        margin: 1rem auto;
     }
 }
