@@ -112,7 +112,7 @@ h3{
 }
 
 
-.cajaPrincipal{
+.contenedorProductos{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,12 +120,18 @@ h3{
     color: #3C2313;    
 }
 
-.cajaPrincipal img{
+.contenedorProductos img{
     color: #F0A83E;
     padding: 20px;
 }
 
-.cajaHorizontal{
+.listaArticulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenesProductos{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -191,7 +197,7 @@ h3 i{
     padding: 10px;
 }
 
-.horizontal{
+.contacto{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -199,13 +205,13 @@ h3 i{
     padding: 30px;
 
 }
-.horizontal2{
+.datos{
     display: flex;
     justify-content:flex-start;
     align-items: center;
 }
 
-.horizontal2 nav dd{
+.datos nav dd{
     padding: 0px 10px 40px 0px;
     color: #FFFFFF;
     font-style: normal;
@@ -214,7 +220,7 @@ h3 i{
     line-height: 12px;
 }
 
-.horizontal2 nav dt{
+.datos nav dt{
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -222,13 +228,13 @@ h3 i{
     color: #FFFFFF;
 }
 
-.vertical{
+.ConjuntoIconos{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 }
-.vertical div{
+.ConjuntoIconos div{
     background: #8A8787;
     border-radius: 29.5px;
     width: 50px;
