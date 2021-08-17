@@ -302,11 +302,9 @@ footer{
     .cajaHorizontal{
         flex-direction: column;
     }
-
     .horizontal{
         flex-direction: column;
     }
-
     .suscripcion{
         flex-direction: column;
     }
