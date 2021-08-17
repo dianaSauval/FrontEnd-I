@@ -305,10 +305,10 @@ footer{
 /*media querie*/
 
 @media screen and (max-width:480px){
-    .cajaHorizontal{
+    .imagenesProductos{
         flex-direction: column;
     }
-    .horizontal{
+    .contacto{
         flex-direction: column;
     }
     .suscripcion{
