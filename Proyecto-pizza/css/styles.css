@@ -1,29 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100,700&display=swap');
 
+/*estilos generales*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    padding: 5px;
+}
+ul{
+    list-style: none;
+}
 
 /* header */
 
 header{
     background-color:#222222;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
+    align-items: center;    
 }
 
 .navegadorHeader{
-    display: flex;            
+    display: flex;         
 }
 .navegadorHeader li{
-    padding: 10px;
-    justify-content: center;    
+    padding: 15px;       
 }
 
-.contenedorPizza {
-    display: flex;
-    margin: 20px;    
-}
+
 
 h1 {
     color: #fff;
+    padding: 20px;
 }
 span{
     color: green;
@@ -31,25 +45,13 @@ span{
 .rojo{
     color: red;
 }
-
-a{
-    text-decoration: none;
-    color: #fff;      
+.contenedorPizza {
+    display: flex;
+    padding: 15px;
 }
-
-ul{
-    list-style: none;
-}
-
-
 
 /* main */
 
-body{
-    font-family: 'Roboto', sans-serif;
-    margin: 0 auto;
-    box-sizing: border-box;
-}
 
 main {
     display: flex;
@@ -60,25 +62,35 @@ main {
 }
 
 main div{
-    width: 491px;
+    
     height: 350px;
     border-radius: 5px;
 }
 
-.PodioPrincipal h2{
+h2{
+    padding: 15px;
     text-align: center;
+}
+.fotoFondo h2{
+    text-align: left;
 }
 
 .fotoFondo{
-    background-image: url(../img/delivery.jpg);    
+    background-image: url(../img/delivery.jpg);
+    width: 491px;
+    margin: 10px;    
 }
 
 .contenedorPodio{
     display: flex;
-    width: 491px;
-    height: 350px;
-    margin: 50px;
-    color:#222222;        
+    justify-content: center;    
+    margin: 15px;
+    color:#222222;   
+}
+
+.contenedorPodio div{
+    padding: 10px;
+    margin: 20px;
 }
 
 
@@ -89,6 +101,6 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 150px;
+    padding: 15px;    
 }
 
