@@ -22,7 +22,7 @@ $(document).ready(function(){
     let orientacion = matchMedia("(orientation: portrait)");
     if (orientacion.matches) {
         $("#logo-final").after($("#contenedor"));
-        $(".productos-destacados img").ccs("opacity",1);       
+        $(".productos-destacados img").css('opacity') = '0.6';       
     };
 
     $("#icono-menu").click(function(){
