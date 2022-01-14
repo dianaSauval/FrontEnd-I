@@ -21,7 +21,8 @@ $(document).ready(function(){
     $("body").hide().fadeIn(3000);
     let orientacion = matchMedia("(orientation: portrait)");
     if (orientacion.matches) {
-        $("#logo-final").after($("#contenedor"));      
+        $("#logo-final").after($("#contenedor"));
+        $(".productos-destacados img").ccs("opacity",1);       
     };
 
     $("#icono-menu").click(function(){
