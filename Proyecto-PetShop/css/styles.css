@@ -139,6 +139,7 @@ h1{
 }
 .productos-destacados img{
     margin-top: 20px;
+    opacity: 0.7;
 }
 h2{
     font-size: 40px;

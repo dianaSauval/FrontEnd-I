@@ -28,6 +28,18 @@ $(document).ready(function(){
         $(".menu").addClass("mostrar");
         $(".menu").slideToggle(500);
         
-    });          
+    });
+    
+    $(".productos-destacados img").hover(function () {
+        $(this).animate({
+            opacity: 1            
+        },200);
+        
+    }, function () {
+        $(this).animate({
+            opacity: 0.7            
+        },200);
+        
+    })
 
 });
