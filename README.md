@@ -11,6 +11,6 @@ Proyecto CV Personal: https://dianasauval.github.io/FrontEnd/Proyecto-CV-Persona
 
 Proyecto-Pizza: https://dianasauval.github.io/FrontEnd/Proyecto-pizza
 
-Proyecto-Pizza: https://dianasauval.github.io/FrontEnd/Proyecto-Heroes
+Proyecto-Heroes: https://dianasauval.github.io/FrontEnd/Proyecto-Heroes
 
  
